@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9D4ADF</color>
+    <color name="colorPrimaryDark">#AA00FF</color>
+    <color name="colorAccent">#FFF</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="dashboard_background">#FCFCFC</color>
+    <color name="lightgray">#EDEDED</color>
+    <color name="yellow">#FFB300</color>
+    <color name="green">#00BFA5</color>
+    <color name="pink">#FF4081</color>
+    <color name="indigo">#3F51B5</color>
+</resources>

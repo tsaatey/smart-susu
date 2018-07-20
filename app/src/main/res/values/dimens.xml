@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_margins">16dp</dimen>
+    <dimen name="buttons_font_size">18sp</dimen>
+    <dimen name="horizontal_padding">18dp</dimen>
+    <dimen name="vertical_padding">16dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="login_error_text_size">12sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

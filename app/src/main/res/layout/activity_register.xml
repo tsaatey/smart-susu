@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".RegisterActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/registerAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/background"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:title="Register">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@color/dashboard_background">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/dashboard_background"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <EditText
+                        android:id="@+id/firstname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/bottom_margins"
+                        android:background="@drawable/input_background"
+                        android:hint="@string/first_name_text"
+                        android:padding="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+
+                    <EditText
+                        android:id="@+id/lastname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/bottom_margins"
+                        android:background="@drawable/input_background"
+                        android:hint="@string/last_name_text"
+                        android:padding="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+
+                    <EditText
+                        android:id="@+id/dateofbirth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/bottom_margins"
+                        android:background="@drawable/input_background"
+                        android:hint="@string/date_of_birth_text"
+                        android:padding="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+
+                    <EditText
+                        android:id="@+id/housenumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/bottom_margins"
+                        android:background="@drawable/input_background"
+                        android:hint="@string/house_number_text"
+                        android:padding="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+
+                    <EditText
+                        android:id="@+id/voterid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/bottom_margins"
+                        android:background="@drawable/input_background"
+                        android:hint="@string/voter_id"
+                        android:padding="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/bottom_margins"
+                        android:background="@drawable/input_background"
+                        android:hint="@string/email_address"
+                        android:inputType="textEmailAddress"
+                        android:padding="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/bottom_margins"
+                        android:background="@drawable/input_background"
+                        android:hint="@string/phone_number"
+                        android:padding="15dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000" />
+
+                    <Button
+                        android:id="@+id/register_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/bottom_margins"
+                        android:background="@drawable/sign_up_button_background"
+                        android:clickable="true"
+                        android:padding="@dimen/vertical_padding"
+                        android:text="@string/register_text"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/buttons_font_size" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

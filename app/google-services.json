@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "146316348426",
+    "firebase_url": "https://smartsusu-32864.firebaseio.com",
+    "project_id": "smartsusu-32864",
+    "storage_bucket": "smartsusu-32864.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146316348426:android:12013605602d5ee5",
+        "android_client_info": {
+          "package_name": "com.artlib.smartsusu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146316348426-qnodq2g1tu17tf6v5ljaegn21nttp312.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.artlib.smartsusu",
+            "certificate_hash": "31f8200b0164ac26390f36784081cdf470c1ebcc"
+          }
+        },
+        {
+          "client_id": "146316348426-943mla2mhsa0jt8al1f7cqc914oq0cp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-mwyGvsgsilGE14TLxh-l-ntU2JXMen4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146316348426-943mla2mhsa0jt8al1f7cqc914oq0cp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

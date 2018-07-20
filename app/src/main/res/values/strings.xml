@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Smart Susu</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_text">Login</string>
+    <string name="display_text">User Login</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="remember_me_text">Keep me logged in</string>
+    <string name="deposit_money">Deposit Money</string>
+    <string name="deposit_money_hint">Put money into your Susu account</string>
+    <string name="check_account_balance">Check Account Balance</string>
+    <string name="check_account_balance_hint">Find out how much you have in your account</string>
+    <string name="subscribe">Subscribe to Susu Company</string>
+    <string name="subscribe_hint">You can join one or more Susu companies here</string>
+    <string name="join_contribution_group">Join Contribution Group</string>
+    <string name="join_contribution_group_hint">You can join a peer contribution group here</string>
+    <string name="request_for_withdrawal">Request for Withdrawal</string>
+    <string name="request_for_withdrawal_hint">Let your susu company know you would like to withdraw money</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="account_settings_hint">Make changes to your account</string>
+    <string name="first_name_text">First name</string>
+    <string name="last_name_text">Last name</string>
+    <string name="date_of_birth_text">Date of Birth</string>
+    <string name="house_number_text">House number</string>
+    <string name="voter_id">Voter\'s ID number</string>
+    <string name="email_address">Email address</string>
+    <string name="phone_number">Phone number</string>
+    <string name="register_text">Register</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="create_account">Create Account</string>
+    <string name="passport_text">Tap Below to Insert Passport</string>
+    <string name="login_failed">Login failed! Username or password is incorrect</string>
+    <string name="invalid_email">The email provided is not valid</string>
+    <string name="empty_fields">Please all fields are required!</string>
+    <string name="logout_text">Log out</string>
+    <string name="deposit_money_button_text">Deposit</string>
+    <string name="deposit_money_text">Amount to deposit</string>
+    <string name="request_for_withdrawal_button_text">Submit Request</string>
+    <string name="withdrawal_request_text">Amount to withdraw</string>
+    <string name="withdraw_money_instructions">
+        Please you must take note that withdrawal requests could take up 3 working days to be completely processed
+    </string>
+    <string name="join_group_note">All eligible groups that are available will be displayed here</string>
+    <string name="balance_text">Total Balance</string>
+    <string name="history_text">Contribution History</string>
+    <string name="bal_txt">Balance</string>
+    <string name="amt_txt">Amount</string>
+    <string name="start_date_text">Start date</string>
+    <string name="end_date_text">End date</string>
+    <string name="view_history_button_text">View History</string>
+    <string name="verification">Send Verification Code</string>
+    <string name="verification_note">
+        Please you must supply your phone number below. A verification code will be sent to your phone. Kindly enter it at where indicated.
+        Take note that standard charges may apply, please check with your operator.
+    </string>
+    <string name="code_text">Please enter the verification code below and click to verify</string>
+    <string name="code">Verification code here...</string>
+    <string name="verify">Verify</string>
+    <string name="new_password_hint">Please create a new password below</string>
+    <string name="new_password">New password</string>
+    <string name="new_password_confirmed">Confirm new password</string>
+    <string name="change_password_button_text">Change Password</string>
+    <string name="password_email">Send Email</string>
+    <string name="email_note">
+        Please enter your email address below. A password reset will be sent to you. Make sure to open your email and follow the instructions to
+        reset your password.
+    </string>
+    <string name="email_sent">Email Sent</string>
+    <string name="email_error">Failed to send email. Check internet connection or email address</string>
+    <string name="empty_field">Please provide an email!</string>
+    <string name="forgot_password">Forgot password? Click here</string>
+    <string name="dateTime">Date/Time</string>
+    <string name="amount_contributed">Amount Contributed</string>
+</resources>
